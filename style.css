@@ -182,16 +182,79 @@ body{
     font-size: 17px;
 }
 
-/*------Novo------*/
-.novo{
+/*------Cinema------*/
+.cinema{
     width: 100%;
-    height: 70vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.novo h1{
-    text-align: center;
+.cinema h1{
+    font-size: 40px;
     font-weight: 400;
     color: var(--green);
+    margin-bottom: 10px;
+}
+
+/*------Carrossel------*/
+.carrossel{
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px 0px black;
+    border-radius: 10px;
+    border: 1px solid var(--green);
+}
+
+.imagens{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.imagens img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/*------Trailer------*/
+.trailer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--green);
+}
+
+.titulo{
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--green);
+}
+
+.titulo h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.titulo h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.titulo p{
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 /*------Copyright------*/
@@ -223,5 +286,37 @@ body{
 
     .card{
         width: 90%;
+    }
+
+    .carrossel{
+        width: 100%;
+        height: 420px;
+    }
+
+    .trailer{
+        flex-direction: column;
+    }
+
+    .titulo{
+        width: 90%;
+        height: 20vh;
+    }
+
+    .titulo h1{
+        font-size: 35px;
+    }
+
+    .titulo h2{
+        font-size: 27px;
+        margin-top: 5px;
+    }
+
+    .titulo p{
+        margin-top: 5px;
+    }
+
+    .trailer iframe{
+        width: 90%;
+        height: 40vh;
     }
 }
