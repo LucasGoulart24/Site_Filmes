@@ -55,7 +55,6 @@ body{
   height: 5vh;
   display: flex;
   align-items: center;
-  background-color: var(--color-green);
 }
 
 .Buscar input{
@@ -63,10 +62,12 @@ body{
   height: 100%;
   border: none;
   outline: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--color-white);
   background-color: var(--color-lightgray);
   padding: 0px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .Buscar input::placeholder{
@@ -77,13 +78,35 @@ body{
   width: 10%;
   height: 100%;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: var(--color-black);
   background-color: var(--color-green);
   cursor: pointer;
   transition-duration: 0.5s;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .Buscar button:hover{
   background-color: var(--color-darkgreen);
+}
+
+/*---Redes---*/
+.Redes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Redes a{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-green);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: var(--color-white);
 }
