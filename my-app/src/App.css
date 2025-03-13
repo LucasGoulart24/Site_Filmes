@@ -93,15 +93,15 @@ body{
   background-color: var(--color-darkgreen);
 }
 
-/*---Redes---*/
-.Redes{
+/*---Icones---*/
+.Icones{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
-.Redes a{
+.Icones a{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,4 +116,67 @@ body{
   border-radius: 50%;
   color: var(--color-black);
   background-color: var(--color-green);
+}
+
+/*---Principal---*/
+.Principal{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./Img/background-filme.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.Principal h1{
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.Principal p{
+  color: var(--color-white);
+}
+
+/*---Barra---*/
+.Barra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: var(--color-white);
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.Barra p{
+  font-size: 1.3rem;
+}
+
+.Barra span{
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: var(--color-green);
+  background-color: var(--color-black);
+}
+
+.Barra button{
+  padding: 10px 50px;
+  border: none;
+  color: var(--color-black);
+  background-color: var(--color-green);
+  cursor: pointer;
+  transition-duration: 0.5s;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.Barra button:hover{
+  background-color: var(--color-darkgreen);
 }
