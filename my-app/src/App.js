@@ -3,9 +3,9 @@ import './App.css';
 
 // Icones
 import { CiSearch } from "react-icons/ci";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaBell } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
+
 
 function App() {
   return (
@@ -20,9 +20,8 @@ function App() {
           <button><CiSearch/></button>
         </div>
         <div className="Redes">
-          <a href="#"><FaFacebookF/></a>
-          <a href="#"><FaInstagram/></a>
-          <a href="#"><FaXTwitter/></a>
+          <a href="#"><FaBell/></a>
+          <a href="#" id="login"><FaRegUser/></a>
         </div>
       </div>
       <div className="Principal"></div>

@@ -102,13 +102,18 @@ body{
 }
 
 .Redes a{
-  width: 40px;
-  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-green);
-  border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--color-white);
+}
+
+#login{
+  width: 40px;
+  height: 40px;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  color: var(--color-black);
+  background-color: var(--color-green);
 }
