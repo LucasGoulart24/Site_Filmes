@@ -121,7 +121,7 @@ body{
 /*---Principal---*/
 .Principal{
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   display: flex;
   align-items: flex-start;
   justify-content: end;
@@ -140,6 +140,11 @@ body{
 
 .Principal p{
   color: var(--color-white);
+}
+
+#texto{
+  width: 45%;
+  text-align: justify;
 }
 
 /*---Barra---*/
@@ -165,7 +170,7 @@ body{
 }
 
 .Barra button{
-  padding: 10px 50px;
+  padding: 10px 20px;
   border: none;
   color: var(--color-black);
   background-color: var(--color-green);
