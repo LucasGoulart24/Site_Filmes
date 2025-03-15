@@ -185,3 +185,15 @@ body{
 .Barra button:hover{
   background-color: var(--color-darkgreen);
 }
+
+/*---Titulo---*/
+.Titulo{
+  width: 100%;
+  padding: 10px;
+  color: var(--color-green);
+}
+
+.Titulo h2{
+  font-weight: 400;
+  text-align: center;
+}

@@ -1,4 +1,5 @@
 import Logo from "./Img/pipoca.png";
+import Filmes from "./Components/Filmes.js";
 import './App.css';
 
 // Icones
@@ -41,6 +42,10 @@ function App() {
         </div>
         <p id="texto">Sinopse: A jovem Furiosa cai nas mãos de uma grande horda de motoqueiros liderada pelo senhor da guerra Dementus. Varrendo Wasteland, eles encontram a Cidadela, presidida pelo Immortan Joe. Enquanto os dois tiranos lutam pelo domínio, Furiosa logo se vê em uma batalha ininterrupta para voltar para casa.</p>
       </div>
+      <div className="Titulo">
+        <h2>Nossos Filmes</h2>
+      </div>
+      <Filmes/>
     </div>
   );
 }
