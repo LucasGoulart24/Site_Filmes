@@ -43,6 +43,34 @@ function Filmes() {
                     <p>Ação/Fantasia</p>
                 </div>
             </div>
+            <div className="Card">
+                <img src={Capa5}></img>
+                <div className="Textos">
+                    <p>2020</p>
+                    <p>Ação/Fantasia</p>
+                </div>
+            </div>
+            <div className="Card">
+                <img src={Capa5}></img>
+                <div className="Textos">
+                    <p>2020</p>
+                    <p>Ação/Fantasia</p>
+                </div>
+            </div>
+            <div className="Card">
+                <img src={Capa5}></img>
+                <div className="Textos">
+                    <p>2020</p>
+                    <p>Ação/Fantasia</p>
+                </div>
+            </div>
+            <div className="Card">
+                <img src={Capa5}></img>
+                <div className="Textos">
+                    <p>2020</p>
+                    <p>Ação/Fantasia</p>
+                </div>
+            </div>
         </div>
     )
 }
