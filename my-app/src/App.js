@@ -7,8 +7,8 @@ import { CiSearch } from "react-icons/ci";
 import { FaBell } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { FaList } from "react-icons/fa";
-import { FaCaretRight } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import { AiFillCaretRight } from "react-icons/ai";
 
 function App() {
   return (
@@ -36,11 +36,11 @@ function App() {
           <p>Ação/Aventura</p>
           <p>2h 28m</p>
         </div>
+        <p id="texto">Sinopse: A jovem Furiosa cai nas mãos de uma grande horda de motoqueiros liderada pelo senhor da guerra Dementus. Varrendo Wasteland, eles encontram a Cidadela, presidida pelo Immortan Joe. Enquanto os dois tiranos lutam pelo domínio, Furiosa logo se vê em uma batalha ininterrupta para voltar para casa.</p>
         <div className="Barra">
-          <button><FaCaretRight/> Assistir</button>
+          <button><AiFillCaretRight/> Assistir</button>
           <button><FaHeart/> Adicionar</button>
         </div>
-        <p id="texto">Sinopse: A jovem Furiosa cai nas mãos de uma grande horda de motoqueiros liderada pelo senhor da guerra Dementus. Varrendo Wasteland, eles encontram a Cidadela, presidida pelo Immortan Joe. Enquanto os dois tiranos lutam pelo domínio, Furiosa logo se vê em uma batalha ininterrupta para voltar para casa.</p>
       </div>
       <div className="Titulo">
         <h2>Nossos Filmes</h2>

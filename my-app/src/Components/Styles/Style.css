@@ -10,6 +10,7 @@
 
 /*---Filmes---*/
 .Filmes{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,8 +33,20 @@
     border: 1px solid var(--color-green);
 }
 
-.Capa{
+.Card img{
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-color: var(--color-green);
+}
+
+/*---Textos---*/
+.Textos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Textos p{
+    color: var(--color-green);
+    font-size: 1.3rem;
 }
