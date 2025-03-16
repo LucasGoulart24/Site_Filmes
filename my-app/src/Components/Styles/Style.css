@@ -50,3 +50,10 @@
     color: var(--color-green);
     font-size: 1.3rem;
 }
+
+/*---Responsividade---*/
+@media screen and (max-width: 768px) {
+    .Card{
+        width: 90%;
+    }
+}
