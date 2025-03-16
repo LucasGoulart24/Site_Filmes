@@ -16,7 +16,7 @@ function App() {
       <div className="Menu">
         <div className="Logo">
           <img src={Logo}></img>
-          <h3>Filmes</h3>
+          <h3>Good Movies</h3>
         </div>
         <div className="Buscar">
           <input type="text" placeholder="Digite nome do filme"></input>

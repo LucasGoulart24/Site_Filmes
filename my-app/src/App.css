@@ -140,12 +140,12 @@ body{
 
 .Principal p{
   color: var(--color-white);
-  margin-bottom: 10px;
 }
 
 #texto{
   width: 45%;
   text-align: justify;
+  margin-bottom: 10px;
 }
 
 /*---Barra---*/
@@ -196,4 +196,36 @@ body{
 
 .Titulo h2{
   font-weight: 400;
+}
+
+/*---Responsividade---*/
+@media screen and (max-width: 768px) {
+  .Menu{
+    padding: 10px 10px;
+  }
+
+  .Logo h3{
+    display: none;
+  }
+
+  .Buscar{
+    width: 60%;
+  }
+
+  .Buscar button{
+    width: 20%;
+  }
+
+  .Icones{
+    gap: 7px;
+  }
+
+  .Principal h1{
+    font-size: 1.7rem;
+  }
+
+  #texto{
+    width: 100%;
+    font-size: 0.9rem;
+  }
 }
