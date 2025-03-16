@@ -46,6 +46,9 @@ function App() {
         <h2>Nossos Filmes</h2>
       </div>
       <Filmes/>
+      <div className="Copyright">
+        <h4>&copy;2025 - Good Movies</h4>
+      </div>
     </div>
   );
 }

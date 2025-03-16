@@ -7,6 +7,9 @@ import Capa6 from "./Img/Filme6.jpeg";
 import Capa7 from "./Img/Filme7.jpeg";
 import Capa8 from "./Img/Filme8.jpeg";
 import Capa9 from "./Img/Filme9.jpeg";
+import Capa10 from "./Img/Filme10.jpeg";
+import Capa11 from "./Img/Filme11.jpeg";
+import Capa12 from "./Img/Filme12.jpeg";
 import "./Styles/Style.css";
 
 function Filmes() {
@@ -73,6 +76,27 @@ function Filmes() {
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
+                </div>
+            </div>
+            <div className="Card">
+                <img src={Capa10}></img>
+                <div className="Textos">
+                    <p>2024</p>
+                    <p>Comédia</p>
+                </div>
+            </div>
+            <div className="Card">
+                <img src={Capa11}></img>
+                <div className="Textos">
+                    <p>2020</p>
+                    <p>Ficção científica/Terror</p>
+                </div>
+            </div>
+            <div className="Card">
+                <img src={Capa12}></img>
+                <div className="Textos">
+                    <p>2020</p>
+                    <p>Ação/Fantasia</p>
                 </div>
             </div>
         </div>
