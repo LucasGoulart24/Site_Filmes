@@ -23,9 +23,9 @@ function App() {
           <button><CiSearch/></button>
         </div>
         <div className="Icones">
-          <a href="#"><FaBell/></a>
-          <a href="#"><FaList/></a>
-          <a href="#" id="login"><FaRegUser/></a>
+          <FaBell style={{ fontSize: 20 }}/>
+          <FaList style={{ fontSize: 20 }}/>
+          <FaRegUser id="login"/>
         </div>
       </div>
       <div className="Principal">
