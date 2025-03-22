@@ -1,5 +1,5 @@
 # Good Movies 🎥
-Olá, você que gosta de assistir um filme com a família, com os amigos, nós temos várias opções de filmes para você poder assistir
+Bem-Vindo(a), você que gosta de assistir filmes com a família, com os amigos e com seus filho(a)s, aqui temos várias opções de filmes para você poder assistir
 
 ## Data
 11/03/2025
