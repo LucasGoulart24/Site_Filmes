@@ -51,6 +51,14 @@
     font-size: 1.3rem;
 }
 
+/*---Estrelas---*/
+.Estrelas{
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    color: yellow;
+}
+
 /*---Responsividade---*/
 @media screen and (max-width: 768px) {
     .Card{

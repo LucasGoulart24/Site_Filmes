@@ -12,6 +12,9 @@ import Capa11 from "./Img/Filme11.jpeg";
 import Capa12 from "./Img/Filme12.jpeg";
 import "./Styles/Style.css";
 
+// Icones
+import { FaStar } from "react-icons/fa6";
+
 function Filmes() {
     return(
         <div className="Filmes">
@@ -21,12 +24,26 @@ function Filmes() {
                     <p>2024</p>
                     <p>Ação/Aventura</p>
                 </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                </div>
             </div>
             <div className="Card">
                 <img src={Capa2}></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Infantil/Aventura</p>
+                </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                 </div>
             </div>
             <div className="Card">
@@ -35,12 +52,26 @@ function Filmes() {
                     <p>2024</p>
                     <p>Musical/Fantasia</p>
                 </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                </div>
             </div>
             <div className="Card">
                 <img src={Capa4}></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
+                </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                 </div>
             </div>
             <div className="Card">
@@ -49,12 +80,26 @@ function Filmes() {
                     <p>2024</p>
                     <p>Terror/Mistério</p>
                 </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                </div>
             </div>
             <div className="Card">
                 <img src={Capa6}></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
+                </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                 </div>
             </div>
             <div className="Card">
@@ -63,12 +108,26 @@ function Filmes() {
                     <p>2024</p>
                     <p>Terror/Suspense</p>
                 </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                </div>
             </div>
             <div className="Card">
                 <img src={Capa8}></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
+                </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                 </div>
             </div>
             <div className="Card">
@@ -77,12 +136,26 @@ function Filmes() {
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
                 </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                </div>
             </div>
             <div className="Card">
                 <img src={Capa10}></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Comédia</p>
+                </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                 </div>
             </div>
             <div className="Card">
@@ -91,12 +164,26 @@ function Filmes() {
                     <p>2020</p>
                     <p>Ficção científica/Terror</p>
                 </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                </div>
             </div>
             <div className="Card">
                 <img src={Capa12}></img>
                 <div className="Textos">
                     <p>2020</p>
                     <p>Ação/Fantasia</p>
+                </div>
+                <div className="Estrelas">
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                 </div>
             </div>
         </div>

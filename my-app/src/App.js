@@ -38,8 +38,8 @@ function App() {
         </div>
         <p id="texto">Sinopse: A jovem Furiosa cai nas mãos de uma grande horda de motoqueiros liderada pelo senhor da guerra Dementus. Varrendo Wasteland, eles encontram a Cidadela, presidida pelo Immortan Joe. Enquanto os dois tiranos lutam pelo domínio, Furiosa logo se vê em uma batalha ininterrupta para voltar para casa.</p>
         <div className="Barra">
-          <button><AiFillCaretRight/> Assistir</button>
-          <button><FaHeart/> Adicionar</button>
+          <button><AiFillCaretRight style={{ fontSize: 25, marginRight: 5 }}/>Assistir</button>
+          <button><FaHeart style={{ fontSize: 20, marginRight: 5 }}/>Adicionar</button>
         </div>
       </div>
       <div className="Titulo">
