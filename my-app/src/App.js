@@ -1,5 +1,6 @@
 import Logo from "./Img/pipoca.png";
 import Filmes from "./Components/Filmes.js";
+import Trailer from "./Components/Trailer.js";
 import './App.css';
 
 // Icones
@@ -46,6 +47,7 @@ function App() {
         <h2>Nossos Filmes</h2>
       </div>
       <Filmes/>
+      <Trailer/>
       <div className="Copyright">
         <h4>&copy;2025 - Good Movies</h4>
       </div>
