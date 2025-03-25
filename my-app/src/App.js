@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <div className="Menu">
         <div className="Logo">
-          <img src={Logo}></img>
+          <img src={Logo} alt="Logo"></img>
           <h3>Good Movies</h3>
         </div>
         <div className="Buscar">

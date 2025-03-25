@@ -19,7 +19,7 @@ function Filmes() {
     return(
         <div className="Filmes">
             <div className="Card">
-                <img src={Capa}></img>
+                <img src={Capa} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Aventura</p>
@@ -33,7 +33,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa2}></img>
+                <img src={Capa2} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Infantil/Aventura</p>
@@ -47,7 +47,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa3}></img>
+                <img src={Capa3} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Musical/Fantasia</p>
@@ -61,7 +61,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa4}></img>
+                <img src={Capa4} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
@@ -75,7 +75,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa5}></img>
+                <img src={Capa5} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Terror/Mistério</p>
@@ -89,7 +89,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa6}></img>
+                <img src={Capa6} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
@@ -103,7 +103,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa7}></img>
+                <img src={Capa7} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Terror/Suspense</p>
@@ -117,7 +117,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa8}></img>
+                <img src={Capa8} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
@@ -131,7 +131,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa9}></img>
+                <img src={Capa9} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Ação/Ficção científica</p>
@@ -145,7 +145,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa10}></img>
+                <img src={Capa10} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2024</p>
                     <p>Comédia</p>
@@ -159,7 +159,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa11}></img>
+                <img src={Capa11} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2020</p>
                     <p>Ficção científica/Terror</p>
@@ -173,7 +173,7 @@ function Filmes() {
                 </div>
             </div>
             <div className="Card">
-                <img src={Capa12}></img>
+                <img src={Capa12} alt="Capa do filme"></img>
                 <div className="Textos">
                     <p>2020</p>
                     <p>Ação/Fantasia</p>
