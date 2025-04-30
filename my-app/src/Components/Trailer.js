@@ -7,6 +7,7 @@ function Trailer() {
                 <div className="Titulos">
                     <h1>Novos Filmes</h1>
                     <p>Aqui estão os trailers dos novos filmes que serão lançados nesse ano</p>
+                    <div className="Links">
                     <div className="Link">
                         <div className="Banner">
                             <h4>Um Filme Minecraft</h4>
@@ -34,6 +35,7 @@ function Trailer() {
                             <h5>19 de dezembro de 2025 (EUA)</h5>
                         </div>
                         <a href="https://www.youtube.com/watch?v=YXtWPVFk5TQ">Assistir o trailer</a>
+                    </div>
                     </div>
                 </div>
             </div>
